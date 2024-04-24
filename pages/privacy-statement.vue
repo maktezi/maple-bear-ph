@@ -1,13 +1,13 @@
 <script setup>
 useHead({
-	title: 'Maple Bear PH - Why Maple Bear?',
+	title: 'Maple Bear PH - Privacy Statement',
 	meta: [{ name: 'Maple Bear', content: 'The best of Canadian education for a global future.' }],
 })
 </script>
 
 <template>
   <section>
-    <h1>Why Maple Bear?</h1>
+    <h1>Privacy Statement</h1>
   </section>
 </template>
 
