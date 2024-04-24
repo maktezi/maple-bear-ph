@@ -1,7 +1,9 @@
 <template>
-    <v-app>
-    <NavBar/>
+  <v-app>
+    <NavBar />
+    <main>
       <slot />
-    <Footer/>
-    </v-app>
+    </main>
+    <Footer />
+  </v-app>
 </template>

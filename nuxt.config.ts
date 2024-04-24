@@ -21,4 +21,11 @@ export default defineNuxtConfig({
       },
     },
   },
+  link: [
+    {
+      rel: 'Icon',
+      type: 'image/x-icon',
+      href: '/assets/logo.png'
+    }
+  ]
 })

@@ -8,12 +8,14 @@ import Background from '../assets/bg.gif';
 </script>
 
 <template>
-    <img class="background" :src='Background' />
-    <div class="container">
-        <h1>WELCOME TO MAPLE BEAR PH</h1>
-        <p>
-        Maple Bear Preschool brings the best of Canadian bilingual education to the world by offering high-quality bilingual (immersion) education. There are currently over 586 Maple Bear early childhood, elementary, middle, and high schools in 40 countries around the world. The Maple Bear mission is to deliver a student-focused learning system in a safe, secure and stimulating environment that prepares students for success at the post-secondary level and instills a passion for life-long learning.
-        </p>
+    <div>
+      <img class="background" :src='Background' />
+      <div class="container">
+          <h2>WELCOME TO MAPLE BEAR PH</h2>
+          <p>
+          Maple Bear Preschool brings the best of Canadian bilingual education to the world by offering high-quality bilingual (immersion) education. There are currently over 586 Maple Bear early childhood, elementary, middle, and high schools in 40 countries around the world. The Maple Bear mission is to deliver a student-focused learning system in a safe, secure and stimulating environment that prepares students for success at the post-secondary level and instills a passion for life-long learning.
+          </p>
+      </div>
     </div>
 </template>
 
@@ -38,7 +40,7 @@ import Background from '../assets/bg.gif';
 
 @media screen and (max-width: 600px) {
   .background {
-    margin-top: 170px;
+    margin-top: 160px;
   }
 }
 </style>

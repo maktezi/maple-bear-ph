@@ -119,7 +119,7 @@ width: 1000px;
 }
 
 #nav-links:hover {
-  color: rgb(255, 188, 188);
+  color: gray;
 }
 
 .bottom-nav-container {
